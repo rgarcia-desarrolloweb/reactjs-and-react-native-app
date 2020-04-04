@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "tsc": "lerna run tsc",
+    "mobile-start": "cd src/mobile && expo start",
+    "mobile-android": "cd src/mobile && expo start --android",
+    "mobile-ios": "cd src/mobile && expo start --ios",
+    "mobile-web": "cd src/mobile && expo start --web",
+    "mobile-eject": "cd src/mobile && expo eject",
+    "web-start": "cd src/web && npm start",
+    "web-build": "cd src/web && npm run-script build",
+    "web-test": "cd src/web && npm test",
+    "web-eject": "cd src/web && npm eject"
+  }
+}
