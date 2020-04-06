@@ -25,4 +25,4 @@ yarn-error.log*
 # macOS
 .DS_Store
 
-packages-lock.json
+package-lock.json
