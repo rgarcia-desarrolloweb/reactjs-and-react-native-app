@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "shared": "^1.0.0",
+    "@my-account/core": "^1.0.0",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13",
     "@testing-library/jest-dom": "^4.2.4",
