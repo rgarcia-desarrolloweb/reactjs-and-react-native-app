@@ -14,5 +14,6 @@ Web ReactJS project
 Web ReactJS project with TypeScript
 > npm run web-ts-start
 
+> :warning: **EXPO CLI**: Expo cli global is required here! Run: 'npm install -g expo-cli'
 Expo React Native project
 > npm run mobile-start
