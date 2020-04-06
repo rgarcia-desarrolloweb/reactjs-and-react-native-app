@@ -5,6 +5,7 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
+    "init": "npm install && npm run bootstrap && npm run tsc",
     "bootstrap": "lerna bootstrap",
     "tsc": "lerna run tsc",
     "mobile-start": "cd src/mobile && expo start",
