@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
 import IoC from './ioc'
-import { TYPES, User, UserLoggedUseCase } from 'shared'
+import { TYPES, User, UserLoggedUseCase } from '@my-account/core'
 
 IoC.init()
 

@@ -2,15 +2,15 @@ import "reflect-metadata";
 
 import { Container } from "inversify";
 
-import { TYPES } from 'shared/lib/ioc'
+import { TYPES } from '@my-account/core/lib/ioc'
 
-import IUserLocalRepository from 'shared/lib/domain/repositories/user_local_repository'
-import UserLocalWebRepository from 'shared/lib/data/repositories/local/user_local_web_repository'
+import IUserLocalRepository from '@my-account/core/lib/domain/repositories/user_local_repository'
+import UserLocalWebRepository from '@my-account/core/lib/data/repositories/local/user_local_web_repository'
 
-import IUserRemoteRepository from 'shared/lib/domain/repositories/user_remote_repository'
-import UserRemoteRepository from 'shared/lib/data/repositories/remote/user_remote_repository'
+import IUserRemoteRepository from '@my-account/core/lib/domain/repositories/user_remote_repository'
+import UserRemoteRepository from '@my-account/core/lib/data/repositories/remote/user_remote_repository'
 
-import { UserLoggedUseCase } from 'shared'
+import { UserLoggedUseCase } from '@my-account/core'
 
 export default class IoC {
     public static container: Container

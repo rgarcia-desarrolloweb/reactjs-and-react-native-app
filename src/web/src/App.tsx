@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import IoC from './ioc'
-import { TYPES, User, UserLoggedUseCase } from 'shared'
+import { TYPES, User, UserLoggedUseCase } from '@my-account/core'
 
 class App extends React.Component {
   state = { user: User }
