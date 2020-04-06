@@ -1,5 +1,8 @@
 # Created by https://www.gitignore.io/api/node
 
+*.DS_Store
+.DS_Store
+
 ### Node ###
 # Logs
 logs
@@ -7,6 +10,8 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+packages-lock.json
+*packages-lock.json
 
 # Runtime data
 pids
