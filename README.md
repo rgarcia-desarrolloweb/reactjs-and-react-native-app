@@ -3,14 +3,8 @@
 1) Clone the repository
 > git clone https://github.com/rgarcia-desarrolloweb/reactjs-and-react-native-app.git
 
-2) Install dependencies
-> npm i
-
-3) Link monorepo with lerna
-> npm run bootstrap
-
-4) Compile typescript
-> npm run tsc
+2) Install dependencies, lerna bootstrap & compile TypeScript
+> npm run init
 
 Now, you can run the projects!
 
