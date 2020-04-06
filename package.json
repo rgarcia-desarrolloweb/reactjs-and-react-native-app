@@ -12,9 +12,13 @@
     "mobile-ios": "cd src/mobile && expo start --ios",
     "mobile-web": "cd src/mobile && expo start --web",
     "mobile-eject": "cd src/mobile && expo eject",
-    "web-start": "cd src/web && npm start",
-    "web-build": "cd src/web && npm run-script build",
-    "web-test": "cd src/web && npm test",
-    "web-eject": "cd src/web && npm eject"
+    "web-ts-start": "cd src/web-ts && npm start",
+    "web-ts-build": "cd src/web-ts && npm run-script build",
+    "web-ts-test": "cd src/web-ts && npm test",
+    "web-ts-eject": "cd src/web-ts && npm eject",
+    "web-js-start": "cd src/web-js && npm start",
+    "web-js-build": "cd src/web-js && npm run-script build",
+    "web-js-test": "cd src/web-js && npm test",
+    "web-js-eject": "cd src/web-js && npm eject"
   }
 }

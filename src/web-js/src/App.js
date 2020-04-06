@@ -3,13 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 import IoC from './ioc'
-import { TYPES, User, UserLoggedUseCase } from '@my-account/core'
+import { TYPES, User } from '@my-account/core'
 
 class App extends React.Component {
   state = { user: User }
 
-  async componentWillMount() {
-    let useCase: UserLoggedUseCase = IoC.container.get(TYPES.UserLoggedUseCase);
+  async componentDidMount() {
+    let useCase = IoC.container.get(TYPES.UserLoggedUseCase);
     let user = await useCase.execute();
 
     this.setState({ user });
