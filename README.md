@@ -15,8 +15,10 @@
 Now, you can run the projects!
 
 Web ReactJS project
-> npm run web-start
+> npm run web-js-start
 
+Web ReactJS project with TypeScript
+> npm run web-ts-start
 
 Expo React Native project
 > npm run mobile-start
